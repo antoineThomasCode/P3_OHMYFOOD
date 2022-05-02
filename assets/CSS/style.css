@@ -1,0 +1,100 @@
+/*HEADER*/
+
+header{
+    display: flex;
+    justify-content: center;
+}
+header img{
+    width: 50%;
+    padding: 10px 0px;
+    
+}
+/*MAIN*/
+
+/*Formulaire*/
+
+main form{
+    background-color: rgb(231, 223, 223);
+    display: flex;
+    justify-content: center;
+    padding:15px;
+    border-top: 2px grey solid;
+    
+    
+    
+}
+main form input{
+    border: none;
+    background-color: rgb(231, 223, 223);
+    font-size: 15px;
+    width: 33%;
+    
+    
+    
+}
+main form label i{
+   font-size: 18px ;
+}
+
+
+main form input::placeholder{
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    opacity: 0.7;
+    text-align: center;
+}
+ /*Section 1 Réservez*/
+
+main section h1{
+    flex-basis: 100%;
+    padding: 0px 70px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 30px;
+    margin-bottom: 15px;
+   
+}
+main section:nth-child(2){
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(245, 239, 239)
+
+}
+main section:nth-child(2) p{
+    flex-basis: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+    
+}
+main section button{
+    justify-content: center;
+    margin : auto;
+    margin-bottom: 30px;
+    border: none;
+    background-color:#FF79DA ;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    font-weight: 600;
+    
+}
+/*Section 2 Fonctionnement*/
+
+main section:nth-of-type(2){
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+main section:nth-of-type(2) h2{
+    flex-basis: 100%;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+}
